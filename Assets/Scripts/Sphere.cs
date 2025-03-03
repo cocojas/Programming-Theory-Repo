@@ -8,6 +8,7 @@ public class Sphere : Shape
         ShapeName = "sphere";
     }
 
+    // POLYMORPHISM
     public override void DisplayText()
     {
         Debug.Log($"A {GetShapeDescription()}");

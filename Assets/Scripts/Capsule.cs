@@ -8,6 +8,7 @@ public class Capsule : Shape
         ShapeName = "capsule";
     }
 
+    // POLYMORPHISM
     public override void DisplayText()
     {
         Debug.Log($"An {GetShapeDescription()}");

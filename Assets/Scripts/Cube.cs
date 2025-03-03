@@ -8,6 +8,7 @@ public class Cube : Shape
         ShapeName = "cube";
     }
 
+    // POLYMORPHISM
     public override void DisplayText()
     {
         Debug.Log($"A {GetShapeDescription()}");
