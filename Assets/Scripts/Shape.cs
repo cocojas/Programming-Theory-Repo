@@ -6,6 +6,8 @@ public abstract class Shape : MonoBehaviour
     public string ShapeColor { get; protected set; } = "uncolored";
     public string ShapeName { get; protected set; } = "abstract";
 
+    [SerializeField] protected PopUpUI popUpUI;
+
     // ABSTRACTION
     public abstract void DisplayText();
 

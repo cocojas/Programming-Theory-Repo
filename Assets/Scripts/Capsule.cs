@@ -11,6 +11,8 @@ public class Capsule : Shape
     // POLYMORPHISM
     public override void DisplayText()
     {
-        Debug.Log($"An {GetShapeDescription()}");
+        string message = $"An {GetShapeDescription()}";
+        popUpUI?.ShowPopUp(message);
+        Debug.Log(message);
     }
 }

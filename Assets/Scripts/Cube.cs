@@ -11,6 +11,7 @@ public class Cube : Shape
     // POLYMORPHISM
     public override void DisplayText()
     {
-        Debug.Log($"A {GetShapeDescription()}");
+        string message = $"A {GetShapeDescription()}";
+        popUpUI?.ShowPopUp(message);
     }
 }
